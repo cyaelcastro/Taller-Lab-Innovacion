@@ -1,7 +1,7 @@
 #importa las bibliotecas 
 
 #Biblioteca del LCD RGB
-import pyupm_i2clcd as lcd 
+from upm import pyupm_jhd1313m1 as lcd
 import time
 
 #Direcciones del LCD segun el fabricante

@@ -4,9 +4,9 @@
 
 #importa bibliotecas
 #Biblioteca Sensor temperatura y humedad
-import pyupm_th02 as tyhupm
+from upm import pyupm_th02 as tyhupm
 #Biblioteca del LCD RGB
-import pyupm_i2clcd as lcd 
+from upm import pyupm_jhd1313m1 as lcd
 import time
 
 #Se inicializa el sensor pirolico en el puerto 2

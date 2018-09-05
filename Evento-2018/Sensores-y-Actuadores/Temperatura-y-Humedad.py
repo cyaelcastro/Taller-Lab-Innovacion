@@ -1,6 +1,6 @@
 #importa bibliotecas
 #Biblioteca Sensor temperatura y humedad
-import pyupm_th02 as tyhupm
+from upm import pyupm_th02 as tyhupm
 import time
 
 #Se inicializa el sensor de temperatura y humedad i2c

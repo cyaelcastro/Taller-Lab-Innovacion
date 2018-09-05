@@ -10,4 +10,4 @@ while 1:
 		n = n + 1
 		print "Numero de veces que ha apretado el boton: " + str(n)
 	#Espera 0.1 segudos para volver a realizar la lectura
-	time.sleep(.1)
+	time.sleep(.2)

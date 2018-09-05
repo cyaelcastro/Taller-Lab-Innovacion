@@ -1,5 +1,5 @@
 import time
-import pyupm_biss0001 as upmMotion
+from upm import pyupm_biss0001 as upmMotion
 
 movimiento = upmMotion.BISS0001(2)
 
